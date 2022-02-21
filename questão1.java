@@ -15,10 +15,10 @@ public class Quest1{
        
         for(int i = 1; i <= n; i++)
         {
-            // Criando variavel multiplica, depois de uma array de char, que será melhorada pelo 'for'
-            String multiplica = new String(new char[i]).replace("\0", "*");
-            //Assim manipula a string espaço através da substring, e assim concatena com a var multiplica, assim temos o resultado esperado
-            System.out.println(espaco.substring(0,espaco.length()-i) + multiplica);
+            // Criando variavel asteristico, depois de uma array de char, que será melhorada pelo 'for'
+            String asteristico = new String(new char[i]).replace("\0", "*");
+            //Assim manipula a string espaço através da substring, e assim concatena com a var asteristico, assim temos o resultado esperado
+            System.out.println(espaco.substring(0,espaco.length()-i) + asteristico);
         }
         
         sc.close();
